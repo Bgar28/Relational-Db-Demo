@@ -1,0 +1,13 @@
+App SetUp
+(figure what models are needed and plan their relationships)
+
+0. create package.json -- run npm init -y
+    Install dependencies - express, dotenv, mysql2, sequelize
+        devDependencies - nodemon(--save-dev), jest
+1. make a server.js file
+2. create directories: routes, db, config, models, *tests*
+3. create files: .env & .gitignore
+
+Specifics for App
+1. Create models
+    - User, Profile, Post
